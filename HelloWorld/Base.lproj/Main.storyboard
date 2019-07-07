@@ -18,8 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tae-wm-hvN">
-                                <rect key="frame" x="163" y="438" width="88" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tae-wm-hvN">
+                                <rect key="frame" x="142" y="438" width="130" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="初めてのアプリ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GnQ-A7-Txu">
+                                <rect key="frame" x="127" y="178" width="160" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="QhO-ZA-e4f"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -27,16 +36,19 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="tae-wm-hvN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dls-DT-JbL"/>
-                            <constraint firstItem="tae-wm-hvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="163" id="M40-Ah-YUM"/>
-                            <constraint firstItem="tae-wm-hvN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Rbu-YW-CMF"/>
-                            <constraint firstItem="tae-wm-hvN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="394" id="XA5-zn-T3Z"/>
+                            <constraint firstItem="tae-wm-hvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="APR-3P-dZO"/>
+                            <constraint firstItem="GnQ-A7-Txu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BCr-BW-J8c"/>
+                            <constraint firstItem="tae-wm-hvN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Q1Z-sN-8fM"/>
+                            <constraint firstItem="GnQ-A7-Txu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="134" id="ZAs-sY-VH1"/>
+                            <constraint firstItem="GnQ-A7-Txu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="dtM-fM-NXg"/>
+                            <constraint firstItem="GnQ-A7-Txu" firstAttribute="centerX" secondItem="tae-wm-hvN" secondAttribute="centerX" id="iPA-lf-rZc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>
